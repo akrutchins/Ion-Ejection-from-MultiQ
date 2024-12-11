@@ -28,6 +28,7 @@ The program calculates ion trajectories in a single quadrupole. Key features inc
   - Excited ions are either:  
     - Pushed towards the plate by the tapered electric field of the squeezed rods, overcoming the potential barrier and exiting the trap.  
     - Returned to the confinement region of the MultiQ.
+    - Killed in the collision with the electrodes.
 
 - **Potential Calculations:**  
   Before simulating ion motion, the program calculates three potentials:  
