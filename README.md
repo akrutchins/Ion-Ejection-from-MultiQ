@@ -12,7 +12,7 @@ The program calculates ion trajectories in the single quadrupole. It is assumed 
 2. Press **F1** (or **Alt+F1**) to open the dialog menu.
 3. Select **"Create Geometry"** to define the electrode geometry.
    - Geometry details are in the `"Geometry"` folder, starting from **line 26**.
-   - Default geometry uses the `definePotential_RF(float x, float y, float z)` function.
+   - Default geometry uses the `define_RF(float x, float y, float z)` function.
 
 ---
 
@@ -25,7 +25,13 @@ The program calculates ion trajectories in the single quadrupole. It is assumed 
 
 ### **Step 3: Define and Save Additional Geometries**
 1. To calculate a different geometry, edit **line 26** in the `"Geometry"` folder.
-   - Example: Replace `definePotential_RF(x, y, z)` with `definePotential_DC(x, y, z)` for DC potentials.
+   - Example: Replace `define_RF(x, y, z)` with `define_DC(x, y, z)` for DC potentials.
+2. Repeat **Steps 1 and 2** to save a DC potential file named **`DC`**.
+
+---
+### **Step 4: Define and Save Additional Geometries**
+1. To calculate AC excitation geometry, edit **line 26** in the `"Geometry"` folder.
+   - Example: Replace `define_DC(x, y, z)` with `define_AC(x, y, z)` for AC potentials.
 2. Repeat **Steps 1 and 2** to save a DC potential file named **`DC`**.
 
 ---
