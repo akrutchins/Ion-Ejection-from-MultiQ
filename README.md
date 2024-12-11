@@ -47,7 +47,7 @@ The program calculates ion trajectories in a single quadrupole. Key features inc
 ### 2. **Install Processing**
 - Install **Processing 4.3** (latest version as of December 2024).
 - Earlier versions may work but are untested.
-- Supported operating systems: **Windows 11**, **Linux**, and **MacOS** (not tested).
+- Supported operating systems: **Windows 11**, **Linux**, and **MacOS**.
 
 ### 3. **Run the Program**
 - Open `MQ_MZ_ejection_singleQ.pde` in Processing.
