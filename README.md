@@ -51,7 +51,7 @@ The program calculates ion trajectories in a single quadrupole. Key features inc
 
 ### 3. **Run the Program**
 - Open `MQ_MZ_ejection_singleQ.pde` in Processing.
-- Run the program to open the **MQ_MZ_ejection_singleQ** window.
+- Run the program to open the **MQ_MZ_ejection_singleQ** canvas window.
 
 ---
 
