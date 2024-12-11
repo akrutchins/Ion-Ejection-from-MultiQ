@@ -1,6 +1,6 @@
 # **MQ_MZ_Ejection_SingleQ**
 
-This program is an _ad hoc_ derivative of the *Demiurge_MultiQ_486* program developed in **Processing** and **Java**. It simulates ion motion within a single quadrupole of a 486-quadrupole MultiQ-IT ion trap in the presence of a buffer gas, configured for m/z-dependent ion ejection from the MultiQ-IT. The computer model is based on the work by **A.N. Krutchinsky, I.V. Chernushevich, V.L. Spicer, W. Ens, and K.G. Standing**:  
+This program is an _ad hoc_ derivative of the *Demiurge_MultiQ_486* program developed in **Processing** and **Java**. It simulates ion motion within a single quadrupole of a 486-quadrupole MultiQ-IT ion trap in the presence of a buffer gas. The quadrupole is configured for m/z-dependent ion ejection from the MultiQ-IT. The computer model is based on the work by **A.N. Krutchinsky, I.V. Chernushevich, V.L. Spicer, W. Ens, and K.G. Standing**:  
 *Collisional Damping Interface for an Electrospray Ionization Time-of-Flight Mass Spectrometer*,  
 **Journal of the American Society for Mass Spectrometry**, Volume 9, Issue 6, June 1998, Pages 569–579.
 
