@@ -31,7 +31,7 @@ The program calculates ion trajectories in a single quadrupole. Key features inc
     - Killed in the collision with the electrodes.
 
 - **Potential Calculations:**  
-  Before simulating ion motion, the program calculates three potentials:  
+  Before simulating ion motion, one needs to calculate three potentials:  
   - **RF:** Governs RF-only motion within the quadrupole.  
   - **DC:** Affects motion near the stopping plate at the quadrupole exit.  
   - **AC:** Drives ion excitation between unsqueezed rods.
