@@ -7,7 +7,7 @@ This program is an _ad hoc_ derivative of the *Demiurge_MultiQ_486* program deve
 ## **Program Overview**
 
 The program calculates ion trajectories in a single quadrupole. Key features include:
-- **Ion Motion:** Ions enter the quadrupole from the MultiQ-IT confinement region.
+- **Ion Motion:** Ions enter the quadrupole from the MultiQ-IT confinement region. The program tracks their fate: ions are either returned to the pace they started ( returned into confinement region of MultiQ). or resonantly ejected from the quadrupole ( and hence from the MultiQ) or collide with electrodes during ejection process.
 - **Geometry:** Two neighboring rods (6.35 mm in diameter, 12 mm long) are squeezed at the entrance by 0.02 radians (*Geometry folder*, line 516).
 - **Operating Modes:** Quadrupole operates in RF-only mode with small excitation voltages (see *MQ MZ Ejection SingleQ folder*, line 90).
 - **Ejection Mechanism:** 
