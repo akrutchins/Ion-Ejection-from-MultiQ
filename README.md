@@ -4,10 +4,24 @@ This program is an _ad hoc_ derevative of Demiurge_MultiQ_486 program developed 
 
 The program calculates ion trajectories in the single quadrupole. It is assumed that ions enter the quadrupole from the side facing the confinement region of the MultiQ-IT. To achieve m/z dependent ion ejection, two neigboring rods of a quadrupole ( 6.35mm in diameter, 12 mm long, see parmeters defined in MQ MZ ejection singleQ folder) are squized together at the qudrupole entrence at an angle 0.02 radian (Geometry folder, line 516). Ions entering the quadrupole operating in FR-only mode with addition of a small excitation voltage ( see parameters around line 90 in MQ MZ Ejection singleQ folder) from the confiment region of a MultiQ are moving along the quadrupole until they are stopped by a plate postioned at the other end of a quadrupole by a 5 V potential difference (line 86 MQ MZ EjectionQ folder). Ions whose frequency of oscillation in the quadrupole resonate with excitation frequency will experince ecitation leading to increase of amplitude of their oscillations. The excited ions are either pushed towards the plate by the tapered electrical field of two squized rods and overcome the potential barier and exit from the trap, or ions returned back to the confinment region of the MultiQ.  The after the plate quadrupole operates with the same RF ( same phase as ejection quadrupole minus excitation). It lenght is short to minimize a potential array for calcultaions. Prior to simulation of ion motion, the program needs to compute three potentials "RF" (RF-only motion in the quadrupole) DC (motion at the exit of the quadrupole near the sopping plate) and "AC" (ion excitation between two not squized sets of rods. Below are the instructions of how to set up and use the program
 
+## **Setup Instructions**
 
+### 1. **Download Files**
+- Download all `*.pde` files.
+- Place them in a folder named `MQ_MZ_ejection_singleQ` on your computer.
+
+### 2. **Install Processing**
+- Install **Processing 4.3** (latest version as of December 2024).
+- Earlier versions may work but are untested.
+- Supported operating systems: **Windows 11**, **Linux** and **MacOS** (not tested)
+
+### 3. **Run the Program**
+- Open `MQ_MZ_ejection_singleQ.pde` in Processing.
+- Run the program.
+- A window titled **MQ_MZ_ejection_singleQ** will appear.
+
+---
 ## **Usage Instructions**
-
-fownload Processing (4.3) and the programs
 
 ### **Step 1: Create Geometry**
 1. run the progrqm
@@ -39,7 +53,7 @@ fownload Processing (4.3) and the programs
 ---
 
 ### **Step 4: Load Precalculated Potentials**
-1. Place the generated `RF` (~100MB) and `DC` (~100MB) files in the `Demiurge_MultiQ_486` folder.
+1. Place the generated `RF` (~120MB), `DC`(120Mb) and `AC` (~120MB) files in the `MQ MZ ejection singleQ` folder.
 2. Run the program and press **F2** to open the options menu.
 3. Select **"Load Precalculated Potentials"** to load the potential arrays into memory.
 
@@ -52,8 +66,9 @@ fownload Processing (4.3) and the programs
    - **m**: Examine the trajectory of a single ion with **m/z = 1500/3+**.
 2. Press **F2** to open the options menu again.
 3. Select simulation options such as:
-   - Simulating ion motion for multiple ions.
-   - Computing ion depletion effects.
+   - Find a trajectory of a single ion with charge 1+ or 5+ 
+   - Find Resonance Frequency (for ions with MW testM parameter).
+   - Produce Spectrum for tesM in the MOZ_RANGE.
 
 ---
 
