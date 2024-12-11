@@ -7,8 +7,10 @@ The program calculates ion trajectories in the single quadrupole. It is assumed 
 
 ## **Usage Instructions**
 
+fownload Processing (4.3) and the programs
+
 ### **Step 1: Create Geometry**
-1. Move your mouse cursor over the program window.
+1. run the progrqm
 2. Press **F1** (or **Alt+F1**) to open the dialog menu.
 3. Select **"Create Geometry"** to define the electrode geometry.
    - Geometry details are in the `"Geometry"` folder, starting from **line 26**.
