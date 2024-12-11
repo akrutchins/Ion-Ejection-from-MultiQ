@@ -20,7 +20,7 @@ import java.lang.Math;
 import java.util.Random;
 
 // File paths for potential files
-String Directory = "/home/andrew/Processing Projects/MQ_MZ_ejection_singleQ/";
+String Directory = "C:\\Users\\Andrew\\MultiQ-IT\\PAPER_v2024\\PROGRAMS\\MQ_MZ_ejection_singleQ\\";
 String DEFAULT_RFPOT_FILE = Directory + "RF";  // Path to RF potential file
 String DEFAULT_DCPOT_FILE = Directory + "DC";  // Path to DC potential file
 String DEFAULT_ACPOT_FILE = Directory + "AC";  // Path to AC potential file
