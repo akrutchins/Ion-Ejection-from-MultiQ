@@ -29,7 +29,7 @@ ArrayList<Potential> calculateElectrodeGeometry() {
         float y = j * step_y;
         
         // Define the potential at current (x, y, z) coordinate
-        POT[i][j][k] = define_AC(x, y, z);
+        POT[i][j][k] = define_RF(x, y, z);
         
         // If the point corresponds to an electrode, add it to the electrodes list
         if (POT[i][j][k].electrode) {
